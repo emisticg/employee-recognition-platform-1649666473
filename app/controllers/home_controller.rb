@@ -1,3 +1,3 @@
-  class HomeController < ApplicationController
-    before_action :authenticate_employee!
-  end
+class HomeController < ApplicationController
+  before_action :authenticate_employee!
+end
